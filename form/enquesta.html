@@ -25,7 +25,7 @@
         </header>
         <main>
             <h2>Encuesta de sadisfación</h2>
-            <form action="./enquesta.html" method="POST">
+            <form action="./validacioenquesta.php" method="POST">
                 <p>
                     <input type="email" id="idEmail" name="correo" placeholder="Introduce tu correo electronico" autofocus required>
                 </p>
@@ -46,12 +46,8 @@
                         <option value="mala">Mala</option>
                     </select>
                 </p>
-                    <label for="colores">Elige el color del tema</label>
-                    <select name="colorestema" id="colores">
-                        <option name="amarillo" type="color" value="#FFFF00"></option>
-                        <option name="verde" type="color" value="#00FF00"></option>
-                        <option name="rosa" type="color" value="#FF00FF"></option>
-                    </select>
+                    <label for="micolor">Elige un color para el tema:</label>
+                    <input type="color" name="micolor" id="micolor"/>
                 <p>
                     <input type="text" id="idobservaciones" name="observaciones" placeholder="Observaciones">
                 </p>
