@@ -1,17 +1,19 @@
 img.madrid{
     float: left;
+    width: auto;
 }
 main{
     width: 80%;
 }
-section{
+nav.nav2{
     float: left;
+    width: auto;
 }
 a#enquesta{
-    float: left;
     margin-left: 11em;
+    float: left;
 }
 aside{
-    float: right;
     width: 85%;
+    float: left;
 }
