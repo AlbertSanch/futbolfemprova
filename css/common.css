@@ -1,0 +1,41 @@
+*{
+    font-family: Arial;
+    font-size: medium;
+    background-color: lavender;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 5px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+/* Cambia el color de fondo a rojo de los enlaces no visitados */
+a:link {
+    background-color:red;
+}
+/* Cambia el color de fondo a azul de los enlaces visitados */
+a:visited {
+    background-color:blue; 
+}
+/* Cambia el color de fondo a amarillo de los enlaces cuando el ratón se desliza por encima de los mismos */
+a:hover {
+    background-color: yellow;
+}
+/* Amb el banner ocupo el 100 de la web i li poso un border perque es vegi més be */
+img.banner{
+    width: 100%;
+    border: solid 4px black;
+}
+/* Coloco els paragrafs de copyrght i el de telefon movil en negreta perque destaquin més */
+p.copyinfo{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+}

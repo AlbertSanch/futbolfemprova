@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+img.madrid{
+    float: left;
+}
+main{
+    width: 80%;
+}
+section{
+    float: left;
+}
+a#enquesta{
+    float: left;
+    margin-left: 11em;
+}
+aside{
+    float: right;
+    width: 85%;
+}
+footer{
+    width: 100%;
+    clear: both;
+}
