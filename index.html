@@ -7,10 +7,12 @@
         <meta name="description" content="Practica 1">
         <meta name="keywords" content="aprender curso HTML5">
         <link rel="icon" href="./img/iberdrola/icono.jpg">
+        <link href="./css/common.css" rel="stylesheet" type="text/css">
+        <link href="./css/index.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
-            <img src="./img//iberdrola/banner.jpg" alt="banner">
+            <img class="banner" src="./img//iberdrola/banner.jpg" alt="banner">
             <h1>REAL MADRID</h1>
         <nav>
             <ul>
@@ -22,7 +24,7 @@
         </header>
         <main>
             <article>
-                <img src="./img//escuts/escut-equip.png" alt="escut-equip" width="150px" height="150px">
+                <img class="madrid" src="./img//escuts/escut-equip.png" alt="escut-equip" width="150px" height="150px">
                 <section>
                     <nav>
                         <ul>
@@ -42,22 +44,24 @@
                     Hay que remontarse más de tres décadas cuando el torneo se llamaba Liga Nacional femenina para encontrar al conjunto que logró alcanzar ese primer liderato.
                     La jornada inicial de aquella primera liga se disputó el día 4 de diciembre de 1988 con estos resultados:
                     Vallés Occidental Aluvall 5 – 0 CE Sabadell
-                    Peña Barcelonista Barcilona Deco Parquet 3 – 0 Puente Castro 
-                    Club Femení Barcelona 1 – 0 Parque Alcobendas
-                    Olímpico Fortuna 2 - 3 RCD Español Inreplast
+                    Peña Barcelonista Barcilona Deco Parquet 3 – 0 Puente Castro
+                    Club Femení Barcelona 1 – 0 Parque Alcobendas Olímpico Fortuna 2 - 3 RCD Español Inreplast. 
                     El CD Atlético Santa María del Camí tuvo descanso.
-                    Por lo tanto, el primer líder fue un equipo catalán, como en 2020, pero no de la Ciudad Condal. Se trataba del Vallés Occidental Aluvall que tras su victoria -la más abultada de aquella jornada- en el derbi vallesano, se colocó en lo más alto de la tabla.
+                    Por lo tanto, el primer líder fue un equipo catalán, como en 2020, pero no de la Ciudad Condal.
+                    Se trataba del Vallés Occidental Aluvall que tras su victoria -la más abultada de aquella jornada- en el derbi vallesano, se colocó en lo más alto de la tabla.
                     El campeonato, sin embargo, lo acabó conquistando el Peña Barcelonista Barcilona Deco Parquet.
                     Ciudad del Fútbol
                 </p>
             </aside>
-            <h3><a href="./form/enquesta.html">Realiza nuestra enquesta haciendo click AQUI</a></h3>
+            <a id="enquesta" href="./form/enquesta.html">Realiza nuestra enquesta haciendo click AQUI</a>
         </main>
         <footer>
-            <p>&copy; 2020 PuigIndutries</p>
-            <p>INFO DE CONTACTE: 671959382</p>
-            <a href="https://www.instagram.com/">instagram</a>
-            <a href="https://es-es.facebook.com/">facebook</a>
+            <br>
+            <hr>
+            <p class="copyinfo">&copy; 2020 PuigIndutries</p>
+            <p class="copyinfo">INFO DE CONTACTE: 671959382</p>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <a href="https://es-es.facebook.com/" target="_blank">Facebook</a>
         </footer>
     </body>
 </html>
